@@ -10,6 +10,6 @@ func fool(a string, b int) int {
 }
 
 func main() {
-	c := fool("abc", 345)
+	c := fool("abc", 3456)
 	fmt.Println("c = ", c)
 }
