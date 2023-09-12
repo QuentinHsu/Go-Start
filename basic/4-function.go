@@ -14,5 +14,5 @@ func main() {
 	fmt.Println("c = ", c)
 }
 func init() {
-	fmt.Println("init")
+	fmt.Println("init", " start")
 }
