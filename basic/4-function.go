@@ -13,3 +13,6 @@ func main() {
 	c := fool("abc", 34567)
 	fmt.Println("c = ", c)
 }
+func init() {
+	fmt.Println("init")
+}
