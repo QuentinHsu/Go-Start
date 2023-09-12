@@ -10,7 +10,7 @@ func fool(a string, b int) int {
 }
 
 func main() {
-	c := fool("abc", 34567)
+	c := fool("abc", 3456)
 	fmt.Println("c = ", c)
 }
 func init() {
